@@ -21,7 +21,6 @@ export default function App() {
       <Text></Text>
       <Text>AGE:</Text>
       <TextInput
-      placeholder="Write yor age here: "
       value ={age}
       onChangeText={text => setAge(text)}
       keyboardType = 'decimal-pad'
